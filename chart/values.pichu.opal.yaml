@@ -1,0 +1,7 @@
+keda:
+  additionalAnnotations:
+    atomi.cloud/landscape: pichu
+    atomi.cloud/cluster: opal
+  additionalLabels:
+    atomi.cloud/landscape: pichu
+    atomi.cloud/cluster: opal

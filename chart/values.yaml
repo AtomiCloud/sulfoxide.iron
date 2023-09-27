@@ -1,0 +1,28 @@
+keda:
+  prometheus:
+    metricServer:
+      enabled: true
+      serviceMonitor:
+        enabled: true
+    operator:
+      enabled: true
+      serviceMonitor:
+        enabled: true
+    webhooks:
+      enabled: true
+      serviceMonitor:
+        enabled: true
+  additionalAnnotations:
+    atomi.cloud/landscape: pichu
+    atomi.cloud/cluster: opal
+    atomi.cloud/platform: systems
+    atomi.cloud/service: pod-autoscaler
+    atomi.cloud/module: operator
+    atomi.cloud/layer: "1"
+  additionalLabels:
+    atomi.cloud/landscape: pichu
+    atomi.cloud/cluster: opal
+    atomi.cloud/platform: systems
+    atomi.cloud/service: pod-autoscaler
+    atomi.cloud/module: operator
+    atomi.cloud/layer: "1"

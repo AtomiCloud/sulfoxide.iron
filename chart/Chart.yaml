@@ -1,13 +1,9 @@
 apiVersion: v2
 name: atomi-keda
 description: AtomiCloud Keda Chart is a wrapper for Keda chart
-
 type: application
-
 version: 1.0.0
-
 appVersion: "2.11.2"
-
 dependencies:
   - name: keda
     version: 2.11.2

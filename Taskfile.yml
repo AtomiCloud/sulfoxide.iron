@@ -1,9 +1,10 @@
 version: "3"
 
 env:
-  RELEASE_NAME: keda
+  RELEASE_NAME: sulfoxide-iron
 
 includes:
+  util: tasks/Taskfile.util.yaml
   pichu:opal:
     taskfile: tasks/Taskfile.cluster.yaml
     vars:
@@ -28,3 +29,12 @@ tasks:
     dir: chart
     cmds:
       - helm dependency update
+
+  latest:
+    desc: Get the latest version of Cert Manager
+    cmds:
+      - task: util:latest
+        vars:
+          REPO_NAME: keda
+          REPO_URL: https://kedacore.github.io/charts
+          CHART_NAME: keda

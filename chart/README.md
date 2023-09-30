@@ -1,14 +1,14 @@
-# atomi-keda
+# sulfoxide-iron
 
-![Version: 1.0.1](https://img.shields.io/badge/Version-1.0.1-informational?style=flat-square) ![Type: application](https://img.shields.io/badge/Type-application-informational?style=flat-square) ![AppVersion: 2.11.2](https://img.shields.io/badge/AppVersion-2.11.2-informational?style=flat-square)
+![Version: 1.0.1](https://img.shields.io/badge/Version-1.0.1-informational?style=flat-square) ![Type: application](https://img.shields.io/badge/Type-application-informational?style=flat-square) ![AppVersion: 2.12.0](https://img.shields.io/badge/AppVersion-2.12.0-informational?style=flat-square)
 
-AtomiCloud Keda Chart is a wrapper for Keda chart
+Helm chart to deploy KEDA scaler as pod autoscaler
 
 ## Requirements
 
 | Repository | Name | Version |
 |------------|------|---------|
-| https://kedacore.github.io/charts | keda | 2.11.2 |
+| https://kedacore.github.io/charts | keda | 2.12.0 |
 
 ## Values
 

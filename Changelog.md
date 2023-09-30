@@ -1,3 +1,10 @@
+## [1.1.1](https://github.com/AtomiCloud/sulfoxide.iron/compare/v1.1.0...v1.1.1) (2023-09-30)
+
+
+### 🐛 Bug Fixes
+
+* Taskfile latest incorrect description ([4d1e32d](https://github.com/AtomiCloud/sulfoxide.iron/commit/4d1e32d1bcb6a316d0beab05c42b37ff4a5537c4))
+
 ## [1.1.0](https://github.com/AtomiCloud/sulfoxide.iron/compare/v1.0.1...v1.1.0) (2023-09-30)
 
 

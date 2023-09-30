@@ -1,3 +1,12 @@
+# -- Kubernetes labels and annotations, following Service Tree
+tags: &tags
+  atomi.cloud/platform: sulfoxide
+  atomi.cloud/service: iron
+  atomi.cloud/module: operator
+  atomi.cloud/layer: "1"
+
+
+# -- KEDA Configuration. See [Helm Config for KEDA](https://github.com/kedacore/charts/tree/main/keda).
 keda:
   prometheus:
     metricServer:
@@ -13,16 +22,6 @@ keda:
       serviceMonitor:
         enabled: true
   additionalAnnotations:
-    atomi.cloud/landscape: pichu
-    atomi.cloud/cluster: opal
-    atomi.cloud/platform: systems
-    atomi.cloud/service: pod-autoscaler
-    atomi.cloud/module: operator
-    atomi.cloud/layer: "1"
+    <<: *tags
   additionalLabels:
-    atomi.cloud/landscape: pichu
-    atomi.cloud/cluster: opal
-    atomi.cloud/platform: systems
-    atomi.cloud/service: pod-autoscaler
-    atomi.cloud/module: operator
-    atomi.cloud/layer: "1"
+    <<: *tags

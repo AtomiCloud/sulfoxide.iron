@@ -1,3 +1,10 @@
+## [1.2.0](https://github.com/AtomiCloud/sulfoxide.iron/compare/v1.1.2...v1.2.0) (2023-10-05)
+
+
+### 🚀 New Features
+
+* pichu, pikachu and raichu values ([741b45d](https://github.com/AtomiCloud/sulfoxide.iron/commit/741b45de24ded03aa9cfff119cf9ba274f116c37))
+
 ## [1.1.2](https://github.com/AtomiCloud/sulfoxide.iron/compare/v1.1.1...v1.1.2) (2023-09-30)
 
 

@@ -5,6 +5,23 @@ tags: &tags
   atomi.cloud/module: operator
   atomi.cloud/layer: "1"
 
+# -- YAML Anchor for PodSecurityContext
+podSecurityContext: &podSecurityContext
+  runAsUser: 1000
+  runAsGroup: 1000
+  fsGroup: 1000
+  runAsNonRoot: true
+
+# -- YAML Anchor for SecurityContext
+securityContext: &securityContext
+  allowPrivilegeEscalation: false
+  readOnlyRootFilesystem: true
+  runAsNonRoot: true
+  runAsUser: 1000
+  runAsGroup: 1000
+  capabilities:
+    drop:
+      - ALL
 
 # -- KEDA Configuration. See [Helm Config for KEDA](https://github.com/kedacore/charts/tree/main/keda).
 keda:
@@ -21,6 +38,10 @@ keda:
       enabled: true
       serviceMonitor:
         enabled: true
+  securityContext:
+    <<: *securityContext
+  podSecurityContext:
+    <<: *podSecurityContext
   additionalAnnotations:
     <<: *tags
   additionalLabels:

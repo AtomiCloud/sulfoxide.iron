@@ -1,3 +1,10 @@
+## [1.3.0](https://github.com/AtomiCloud/sulfoxide.iron/compare/v1.2.0...v1.3.0) (2023-10-12)
+
+
+### 🚀 New Features
+
+* **entei:** new values.yaml ([c08655c](https://github.com/AtomiCloud/sulfoxide.iron/commit/c08655c22a54175df0a5d87181076031d35c574a))
+
 ## [1.2.0](https://github.com/AtomiCloud/sulfoxide.iron/compare/v1.1.2...v1.2.0) (2023-10-05)
 
 

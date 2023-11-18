@@ -8,7 +8,7 @@ Helm chart to deploy KEDA scaler as pod autoscaler
 
 | Repository | Name | Version |
 |------------|------|---------|
-| https://kedacore.github.io/charts | keda | 2.12.0 |
+| https://kedacore.github.io/charts | keda | 2.10.2 |
 
 ## Values
 

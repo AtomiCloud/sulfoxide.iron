@@ -1,3 +1,10 @@
+## [1.4.1](https://github.com/AtomiCloud/sulfoxide.iron/compare/v1.4.0...v1.4.1) (2023-11-18)
+
+
+### 🐛 Bug Fixes
+
+* desync of APIService ([a516419](https://github.com/AtomiCloud/sulfoxide.iron/commit/a516419515bc56786f994c3454e4dc1acfcb0731))
+
 ## [1.4.0](https://github.com/AtomiCloud/sulfoxide.iron/compare/v1.3.0...v1.4.0) (2023-11-18)
 
 

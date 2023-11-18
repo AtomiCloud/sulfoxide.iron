@@ -1,3 +1,10 @@
+## [1.4.0](https://github.com/AtomiCloud/sulfoxide.iron/compare/v1.3.0...v1.4.0) (2023-11-18)
+
+
+### 🚀 New Features
+
+* ruby values ([ca99d47](https://github.com/AtomiCloud/sulfoxide.iron/commit/ca99d47e1fd2fed58f18e2a1917f53b00da6a607))
+
 ## [1.3.0](https://github.com/AtomiCloud/sulfoxide.iron/compare/v1.2.0...v1.3.0) (2023-10-12)
 
 

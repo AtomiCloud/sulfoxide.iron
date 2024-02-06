@@ -2,7 +2,6 @@
 tags: &tags
   atomi.cloud/platform: sulfoxide
   atomi.cloud/service: iron
-  atomi.cloud/module: operator
   atomi.cloud/layer: "1"
 
 # -- YAML Anchor for PodSecurityContext
@@ -25,6 +24,36 @@ securityContext: &securityContext
 
 # -- KEDA Configuration. See [Helm Config for KEDA](https://github.com/kedacore/charts/tree/main/keda).
 keda:
+  operator:
+    name:
+  webhooks:
+  metricsServer:
+
+  topologySpreadConstraints:
+    operator:
+      - maxSkew: 1
+        topologyKey: "topology.kubernetes.io/zone"
+        whenUnsatisfiable: ScheduleAnyway
+        labelSelector:
+          matchLabels:
+            <<: *tags
+            atomi.cloud/module: operator
+    metricsServer:
+      - maxSkew: 1
+        topologyKey: "topology.kubernetes.io/zone"
+        whenUnsatisfiable: ScheduleAnyway
+        labelSelector:
+          matchLabels:
+            <<: *tags
+            atomi.cloud/module: metrics-adapter
+    webhooks:
+      - maxSkew: 1
+        topologyKey: "topology.kubernetes.io/zone"
+        whenUnsatisfiable: ScheduleAnyway
+        labelSelector:
+          matchLabels:
+            <<: *tags
+            atomi.cloud/module: webhooks
   prometheus:
     metricServer:
       enabled: true
@@ -42,7 +71,29 @@ keda:
     <<: *securityContext
   podSecurityContext:
     <<: *podSecurityContext
+
   additionalAnnotations:
     <<: *tags
   additionalLabels:
     <<: *tags
+
+  podLabels:
+    keda:
+      <<: *tags
+      atomi.cloud/module: operator
+    metricsAdapter:
+      <<: *tags
+      atomi.cloud/module: metrics-adapter
+    webhooks:
+      <<: *tags
+      atomi.cloud/module: webhooks
+  podAnnotations:
+    keda:
+      <<: *tags
+      atomi.cloud/module: operator
+    metricsAdapter:
+      <<: *tags
+      atomi.cloud/module: metrics-adapter
+    webhooks:
+      <<: *tags
+      atomi.cloud/module: webhooks

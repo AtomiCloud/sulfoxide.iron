@@ -1,3 +1,10 @@
+## [1.5.1](https://github.com/AtomiCloud/sulfoxide.iron/compare/v1.5.0...v1.5.1) (2024-02-17)
+
+
+### 🐛 Bug Fixes
+
+* incorrect values ([de71733](https://github.com/AtomiCloud/sulfoxide.iron/commit/de71733415f22091074db2f343cad068f8bf5480))
+
 ## [1.5.0](https://github.com/AtomiCloud/sulfoxide.iron/compare/v1.4.1...v1.5.0) (2024-02-08)
 
 

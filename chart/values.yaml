@@ -24,11 +24,6 @@ securityContext: &securityContext
 
 # -- KEDA Configuration. See [Helm Config for KEDA](https://github.com/kedacore/charts/tree/main/keda).
 keda:
-  operator:
-    name:
-  webhooks:
-  metricsServer:
-
   topologySpreadConstraints:
     operator:
       - maxSkew: 1

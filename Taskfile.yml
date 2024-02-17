@@ -10,7 +10,61 @@ includes:
     vars:
       LANDSCAPE: pichu
       CLUSTER: opal
-
+  pichu:onyx:
+    taskfile: tasks/Taskfile.cluster.yaml
+    vars:
+      LANDSCAPE: pichu
+      CLUSTER: onyx
+  pichu:ruby:
+    taskfile: tasks/Taskfile.cluster.yaml
+    vars:
+      LANDSCAPE: pichu
+      CLUSTER: ruby
+  pikachu:opal:
+    taskfile: tasks/Taskfile.cluster.yaml
+    vars:
+      LANDSCAPE: pikachu
+      CLUSTER: opal
+  pikachu:onyx:
+    taskfile: tasks/Taskfile.cluster.yaml
+    vars:
+      LANDSCAPE: pikachu
+      CLUSTER: onyx
+  pikachu:ruby:
+    taskfile: tasks/Taskfile.cluster.yaml
+    vars:
+      LANDSCAPE: pikachu
+      CLUSTER: ruby
+  raichu:opal:
+    taskfile: tasks/Taskfile.cluster.yaml
+    vars:
+      LANDSCAPE: raichu
+      CLUSTER: opal
+  raichu:onyx:
+    taskfile: tasks/Taskfile.cluster.yaml
+    vars:
+      LANDSCAPE: raichu
+      CLUSTER: onyx
+  raichu:ruby:
+    taskfile: tasks/Taskfile.cluster.yaml
+    vars:
+      LANDSCAPE: raichu
+      CLUSTER: ruby
+  entei:opal:
+    taskfile: tasks/Taskfile.cluster.yaml
+    vars:
+      LANDSCAPE: entei
+      CLUSTER: opal
+  entei:onyx:
+    taskfile: tasks/Taskfile.cluster.yaml
+    vars:
+      LANDSCAPE: entei
+      CLUSTER: onyx
+  entei:ruby:
+    taskfile: tasks/Taskfile.cluster.yaml
+    vars:
+      LANDSCAPE: entei
+      CLUSTER: ruby
 tasks:
   # Utility
   start:cluster:

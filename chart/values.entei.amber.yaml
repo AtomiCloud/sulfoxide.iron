@@ -1,0 +1,9 @@
+tags: &tags
+  atomi.cloud/landscape: entei
+  atomi.cloud/cluster: amber
+
+keda:
+  additionalAnnotations:
+    <<: *tags
+  additionalLabels:
+    <<: *tags

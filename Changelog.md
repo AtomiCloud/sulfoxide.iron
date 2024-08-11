@@ -1,3 +1,10 @@
+## [1.6.0](https://github.com/AtomiCloud/sulfoxide.iron/compare/v1.5.1...v1.6.0) (2024-08-11)
+
+
+### 📦 Upstreams Changes
+
+* upgrade nix, helm upstream, GHA ([f730463](https://github.com/AtomiCloud/sulfoxide.iron/commit/f730463019c9e27ba0fd67965672ac8e647561be))
+
 ## [1.5.1](https://github.com/AtomiCloud/sulfoxide.iron/compare/v1.5.0...v1.5.1) (2024-02-17)
 
 

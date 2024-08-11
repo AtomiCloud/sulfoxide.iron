@@ -1,3 +1,10 @@
+## [1.7.0](https://github.com/AtomiCloud/sulfoxide.iron/compare/v1.6.0...v1.7.0) (2024-08-11)
+
+
+### 🚀 New Features
+
+* new values file for pichu, pikachu & raichu under topaz & amber ([c10aca7](https://github.com/AtomiCloud/sulfoxide.iron/commit/c10aca70c0cef5d51e1855f7e725625fb011579d))
+
 ## [1.6.0](https://github.com/AtomiCloud/sulfoxide.iron/compare/v1.5.1...v1.6.0) (2024-08-11)
 
 

@@ -1,9 +1,0 @@
-tags: &tags
-  atomi.cloud/landscape: raichu
-  atomi.cloud/cluster: onyx
-
-keda:
-  additionalAnnotations:
-    <<: *tags
-  additionalLabels:
-    <<: *tags

@@ -1,3 +1,10 @@
+## [1.8.0](https://github.com/AtomiCloud/sulfoxide.iron/compare/v1.7.0...v1.8.0) (2024-08-17)
+
+
+### 🚀 New Features
+
+* remove onyx ([2496ae9](https://github.com/AtomiCloud/sulfoxide.iron/commit/2496ae9d9621381731a167bfcbb18dac4ee89587))
+
 ## [1.7.0](https://github.com/AtomiCloud/sulfoxide.iron/compare/v1.6.0...v1.7.0) (2024-08-11)
 
 

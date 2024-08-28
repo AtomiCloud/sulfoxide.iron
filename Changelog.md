@@ -1,3 +1,10 @@
+## [1.9.0](https://github.com/AtomiCloud/sulfoxide.iron/compare/v1.8.0...v1.9.0) (2024-08-28)
+
+
+### 🚀 New Features
+
+* values for mica & talc ([bb060bc](https://github.com/AtomiCloud/sulfoxide.iron/commit/bb060bc4177d7d2e7a211c9a2994c05ec81b2085))
+
 ## [1.8.0](https://github.com/AtomiCloud/sulfoxide.iron/compare/v1.7.0...v1.8.0) (2024-08-17)
 
 

@@ -1,3 +1,10 @@
+## [1.10.0](https://github.com/AtomiCloud/sulfoxide.iron/compare/v1.9.0...v1.10.0) (2024-10-02)
+
+
+### 📦 Upstreams Changes
+
+* **atominix:** ugrading to 28.0.0 ([569046f](https://github.com/AtomiCloud/sulfoxide.iron/commit/569046f13e6b2a1acd556675081b49ab55486ecc))
+
 ## [1.9.0](https://github.com/AtomiCloud/sulfoxide.iron/compare/v1.8.0...v1.9.0) (2024-08-28)
 
 
